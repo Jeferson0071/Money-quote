@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valores da Moeda</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="Header">
+        <h1>Cotação das Moeda</h1>
+        <nav>
+            <ul>
+                <li ><a href="#">Cotação</a></li>
+                <li><a href="#">Noticias</a></li>
+                <li><a href="#">Curiosidade</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Moedas</h2>
+        <p>Fique atualizado com as últimas cotações, notícias e informações detalhadas sobre moedas, incluindo Real, Dolar e Bitcoin.</p>
+    </section>
+
+    <div class="cta">
+        <p>Dólar em disparada: entenda a alta da moeda e o que vem pela frente</p>
+    </div>
+
+    <section class="live-rates">
+        <h3>MOEDAS AO VIVO</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>MOEDA</th>
+                    <th>PREÇO</th>
+                    <th>Mudança / 24hrs</th>
+                </tr>
+            </thead>
+            <tbody id="rates-body">
+                <tr>
+                    <td>USD | Dolar americano</td>
+                    <td id="usd-price">-</td>
+                    <td id="usd-change"></td>
+                </tr>
+                <tr>
+                    <td>GBP | Libras</td>
+                    <td id="gbp-price">-</td>
+                    <td id="gbp-change"></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

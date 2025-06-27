@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background-color: rgb(22, 22, 22);
+}
+
+.Header{
+    margin: 25px;
+    padding: 2rem;
+    background-color: rgba(128, 128, 128, 0.5);
+    color: white;
+    border-radius: 1rem;
+    text-align: justify;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Header h1{
+    margin: 0 5rem;
+    font-size: 1.8rem;
+    color: rgb(164, 94, 255)
+}
+
+.Header nav ul{
+    list-style: none;
+    gap: 5rem;
+    display: flex;
+    background-color: transparent;
+    margin: 0 5rem; 
+}
+
+.Header nav ul li{
+    position: relative;
+    font-size: 20px;
+    
+}
+
+.Header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.hero{
+    color: white;
+    text-align: center;
+    padding: 40px 20rem;
+}
+
+.hero h2{
+    margin: 25px;
+    font-size: 30px;
+    color: rgb(164, 94, 255)
+}
+
+.hero p{
+    font-size: 15px;
+}
+
+.cta{
+    text-align: center;
+    margin: 10px auto;
+    background-color: rgb(253, 253, 253);
+    max-width: 400px;
+    padding: 35px 25px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.live-rates{
+    margin: 30px auto;
+    max-width: 800px;
+    color: white;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+th, td{
+    padding: 10px;
+    text-align: left;
+    color: white;
+}
+
+th{
+    background-color: rgb(176, 116, 255);
+}
+
+tr:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.5);
+}
+
+.changer{
+    font-weight: 900px;
+}
